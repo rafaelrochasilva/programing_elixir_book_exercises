@@ -5,6 +5,6 @@ list_concat = fn a, b -> a ++ b end
 
 list = list_concat.([:a, :b], [:c, :d])
 
-IO.puts list
+IO.inspect list
 
 
